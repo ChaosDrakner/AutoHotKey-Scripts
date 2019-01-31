@@ -1,0 +1,2 @@
+Send, ^+b
+return
