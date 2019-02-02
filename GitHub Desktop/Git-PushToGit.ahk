@@ -1,12 +1,10 @@
-; This script targets GitHub Desktop and pushes all current changes to the last branch selected
-; If Github Desktop is not open it will attempt to open the program.
-; You might need to update the File path depending on where you installed Git Desktop.
+; This checks to see if the GitHub app is open. If it isn't nothing will happen.
+; If it is open it will push the last Repo you had open and the last branch you had selected.
 
-;This checks to see if the Github Desktop window exists first.
-If WinExist("GitHub Desktop") == True
-{
-	WinActivate
+
+If WinExist("GitHub Desktop")
+	{	WinActivate
 	Send, ^p
-}
+	}
 Else
  return
