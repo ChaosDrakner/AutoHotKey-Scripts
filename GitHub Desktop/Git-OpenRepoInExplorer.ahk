@@ -1,4 +1,4 @@
-﻿; This script targets GitHub Desktop and opens the current Repo selected in File Explorer
+05; This script targets GitHub Desktop and opens the current Repo selected in File Explorer
 ; If Github Desktop is not open it will attempt to open the program.
 ; You might need to update the File path depending on where you installed Git Desktop.
 
